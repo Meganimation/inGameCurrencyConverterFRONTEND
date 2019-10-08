@@ -42,7 +42,7 @@ class PortfolioContainer extends Component {
         }
 
     componentDidUpdate() {
-        fetch('http://localhost:3000/users/')
+        fetch('https://crypto-calculator-copy.herokuapp.com/users/')
         .then(res => res.json())
         .then(data => {
           this.setState({ 

@@ -49,17 +49,19 @@ render(){
 
   <div className="flip-card-inner">
     <div className="flip-card-front">
-      
-      <img className="test-img" src={this.props.game.img_url} alt="Avatar" ></img>
+
+      <img src={this.props.game.img_url} alt="Avatar" ></img>
     </div>
     <div className="flip-card-back">
     <div>
     <br />
     <br />
+
     <br />
     <br />
            Name: <h2>{this.props.game.name}</h2>
            <br />
+           
            Available Currency: <p>{this.props.game.currencies[0].name}</p>
            {/* Available Stores: <p>{gameCurr}</p> */}
            <br />

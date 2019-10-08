@@ -10,11 +10,11 @@ class Calculate extends Component {
 render(){
     return(
         <div>
-        <h1 className = "header-one">How much {this.props.active_currency.name} do you ownn?</h1>
+        <h1 className = "header-one">Enter the amount of {this.props.active_currency.name} you would like to convert.</h1>
         <form onSubmit={this.props.handleSubmit}> 
             <div className="form-group">
-                <label> Enter Amount Owned: </label> <br/>
-                <input onChange={this.props.handleChange} autoComplete='off' type='text' name='amount' placeholder="How much do you own?" value={this.props.amount} className="field" />
+                <label> Enter Amount: </label> <br/>
+                <input onChange={this.props.handleChange} autoComplete='off' type='text' name='amount' placeholder="How many?" value={this.props.amount} className="field" />
             </div>
            <div className="form-group">
                <input type="submit" className="calculate-btn" value="Calculate My Total" />

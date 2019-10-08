@@ -56,15 +56,14 @@ render()  {
  <div>
            {/* <h2>This is the container: {this.props.user[0].name} Ayyy</h2> */}
         <div>
-                <div>{userItems}   <div>
+                {/* <div>{userItems}   <div> */}
     
         </div>
         )
       )
     }  
 </div>
-</div>
-</div>
+
 
     )
 }
